@@ -3,7 +3,7 @@ Monitors [DropTopFour](https://droptopfour.com) and restarts it if [RainMeter](h
 
 I am unaware of any event logging by Windows around the screen reserved space area, so consider this a bandaid fix that I made for myself only. Your results may vary. Windows may place the RainMeter process in a suspended state and confuse it? Shrug.
 
-Tested on Windows 11 Pro, PowerShell 7.4.
+Tested on Windows 11 Pro v22H2, PowerShell 7.4.
 
 Run as user context (system context won't work) as well as elevated.
 
