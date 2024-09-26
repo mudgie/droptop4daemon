@@ -15,7 +15,7 @@ $red = "`e[31m"
 $cyan = "`e[36m"
 Write-Output ""
 Write-Output "${red}DropTop4 Daemon v${scriptVersion}!$reset"
-Write-Output "${cyan}By github.com/mudgie$reset"
+Write-Output "${cyan}github.com/mudgie/droptop4daemon$reset"
 Write-Output ""
 
 
