@@ -125,7 +125,6 @@ function restartDropTop {
             }
         ))
 
-        #Stop-Process -Name "rainmeter" -ErrorAction SilentlyContinue
         $rainMeterProcess = Get-Process -Name "rainmeter" -ErrorAction SilentlyContinue
 
         if ($rainMeterProcess) {
