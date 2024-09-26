@@ -1,5 +1,5 @@
 # droptop4daemon
-Monitors [DropTopFour](https://droptopfour.com) and restarts it if [RainMeter](https://www.rainmeter.net) has crashed or the screen reserved space coords are wrong which would also indicate that there is some issue.
+Monitors [DropTopFour](https://droptopfour.com) and restarts it if [RainMeter](https://www.rainmeter.net) has crashed or the [Windows screen reserved space](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.layoutkind?view=net-8.0) coords are wrong which would also indicate that there is some issue.
 
 I am unaware of any event logging by Windows around the screen reserved space area, so consider this a bandaid fix that I made for myself only. Your results may vary. Windows may place the RainMeter process in a suspended state and confuse it? Shrug.
 
