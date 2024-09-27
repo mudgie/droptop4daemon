@@ -14,7 +14,7 @@ $reset = "`e[0m" # Set back to system colour default
 $red = "`e[31m"
 $cyan = "`e[36m"
 Write-Output ""
-Write-Output "${red}DropTop4 Daemon v${scriptVersion}!$reset"
+Write-Output "${red}DropTopFourDaemon v${scriptVersion}!$reset"
 Write-Output "${cyan}github.com/mudgie/droptop4daemon$reset"
 Write-Output ""
 
